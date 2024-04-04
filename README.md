@@ -42,12 +42,14 @@ A aplicação "Lista de Veículos" é uma solução web que facilita a gestão d
 
 ## Instalação e Configuração
 
-Descreva os passos necessários para instalar e configurar a aplicação em um ambiente local. Inclua informações sobre como configurar o ambiente de desenvolvimento, instalar dependências e qualquer outra configuração necessária.
+###Para Rodar é necessario ter alguns componente como:
 
-```bash
-# Exemplo de comandos para clonar o repositório e instalar dependências
-git clone https://link-para-o-repositorio.com
-cd pasta-do-projeto
-composer install
-npm install
-npm run dev
+-Composer
+-Nodejs
+-Laravel 
+Para rodar é simples basta digitar no terminal os seguintes comandos:
+
+php artisan serv 
+npm install &&  npm run dev  
+
+Isso iniciará o servidor, tornando a aplicação acessível no navegador através do endereço http://localhost:8000.
