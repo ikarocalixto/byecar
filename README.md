@@ -37,19 +37,19 @@ A aplicação "Lista de Veículos" é uma solução web que facilita a gestão d
 
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript 
 - Laravel (para o backend e gerenciamento de sessão)
 
 ## Instalação e Configuração
 
-###Para Rodar é necessario ter alguns componente como:
+### Para Rodar é necessario ter alguns componente como:
 
--Composer
--Nodejs
--Laravel 
-Para rodar é simples basta digitar no terminal os seguintes comandos:
+- Composer
+- Nodejs
+- Laravel 
+- Para rodar é simples basta digitar no terminal os seguintes comandos:
 
-php artisan serv 
-npm install &&  npm run dev  
+- php artisan serv 
+- npm install &&  npm run dev  
 
-Isso iniciará o servidor, tornando a aplicação acessível no navegador através do endereço http://localhost:8000.
+- Isso iniciará o servidor, tornando a aplicação acessível no navegador através do endereço http://localhost:8000.
