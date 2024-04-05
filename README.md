@@ -49,14 +49,17 @@ A aplicação "Lista de Veículos" é uma solução web que facilita a gestão d
 - Laravel 
 - Para rodar é simples basta digitar no terminal os seguintes comandos:
 
-- php artisan serv 
-- npm install &&  npm run dev  
+- Para iniciar o servidor e tornar a aplicação acessível no navegador, execute o seguinte comando no terminal:
 
-- Isso iniciará o servidor, tornando a aplicação acessível no navegador através do endereço http://localhost:8000.
+```bash
+php artisan serve
 
+```
+### Para usar o arquivo do Python
 
-## Para usar o arquivo do phynton 
+- Para executar um script Python, abra o terminal e digite o seguinte comando:
 
-- basta abrir o terminal e executar esse comando : 
+```
+php artisan app:run-python-script
 
-- php artisan app:run-python-script
+```
