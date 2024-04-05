@@ -45,7 +45,6 @@ A aplicação "Lista de Veículos" é uma solução web que facilita a gestão d
 ### Para Rodar é necessario ter alguns componente como:
 
 - Composer
-- Nodejs
 - Laravel 
 - Para rodar é simples basta digitar no terminal os seguintes comandos:
 
