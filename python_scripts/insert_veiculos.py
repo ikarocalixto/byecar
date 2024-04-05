@@ -16,9 +16,9 @@ from selenium.common.exceptions import TimeoutException
 config = {
     'user': 'root',
     'password': '',
-    'port': 3306, # Atualize de acordo com sua porta 
+    'port': 3307, # Atualize de acordo com sua porta 
     'host': '127.0.0.1',
-    'database': 'root',
+    'database': 'inovetime',
     'raise_on_warnings': True,
 }
 
