@@ -16,9 +16,9 @@ from selenium.common.exceptions import TimeoutException
 config = {
     'user': 'root',
     'password': '',
-    'port': 3307,
+    'port': 3306, # Atualize de acordo com sua porta 
     'host': '127.0.0.1',
-    'database': 'inovetime',
+    'database': 'root',
     'raise_on_warnings': True,
 }
 
@@ -30,11 +30,14 @@ try:
     cnx = mysql.connector.connect(**config)
     cursor = cnx.cursor()
 
-    for _ in range(5):  # Repetir o processo 10 vezes
+    for _ in range(10):  # Repetir o processo 10 vezes
         driver.get('https://veiculos.fipe.org.br/')
-        WebDriverWait(driver, 20).until(
+        time.sleep(5)  
+
+        WebDriverWait(driver, 30).until(
             EC.element_to_be_clickable((By.XPATH, "//div[@class='title' and contains(text(), 'Consulta de Carros e Utilitários')]"))
         ).click()
+        time.sleep(5)
 
         # Seleciona uma marca aleatoriamente
         WebDriverWait(driver, 20).until(

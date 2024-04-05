@@ -53,3 +53,10 @@ A aplicação "Lista de Veículos" é uma solução web que facilita a gestão d
 - npm install &&  npm run dev  
 
 - Isso iniciará o servidor, tornando a aplicação acessível no navegador através do endereço http://localhost:8000.
+
+
+## Para usar o arquivo do phynton 
+
+- basta abrir o terminal e executar esse comando : 
+
+- php artisan app:run-python-script
